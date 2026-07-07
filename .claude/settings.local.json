@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c \"import py_compile; py_compile.compile\\('main.py', doraise=True\\); py_compile.compile\\('config.py', doraise=True\\); [py_compile.compile\\(f'pages/{f}', doraise=True\\) for f in ['01_记录.py','02_洞察.py','03_手册.py','04_故事.py','05_设置.py']]; print\\('All OK'\\)\")"
+    ]
+  }
+}

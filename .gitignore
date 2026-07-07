@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# KnowMe data (user-specific, not for version control)
+growth_data.json
+growth_data.backup.*.json
+
+# Temp files
+*.tmp
+*.bak
+_fix.py
+_fix2.py
